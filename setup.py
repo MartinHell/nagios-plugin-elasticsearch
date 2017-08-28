@@ -16,10 +16,13 @@ setup(
     scripts=["check_elasticsearch"],
     license="MIT",
     install_requires=[
-      'git+https://github.com/MartinHell/pynagioscheck.git',
+      'nagioscheck==0.1.6',
       'simplejson>=3.4.0',
       'setuptools>=3.4.0',
       'pip>=1.4'
+    ],
+    dependency_links=[
+      'git+https://github.com/MartinHell/pynagioscheck.gitt#egg=nagioscheck-0.1.6',
     ],
     include_package_data=True
 )
