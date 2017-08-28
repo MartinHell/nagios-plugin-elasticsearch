@@ -22,7 +22,7 @@ setup(
       'pip>=1.4'
     ],
     dependency_links=[
-      'git+https://github.com/MartinHell/pynagioscheck.gitt#egg=nagioscheck-0.1.6',
+      'git+https://github.com/MartinHell/pynagioscheck.git#egg=nagioscheck-0.1.6',
     ],
     include_package_data=True
 )
